@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ DevPulse Hub - Modern Full-Stack Workspace & API Platform
 
-## Getting Started
+Next.js App Router, TypeScript ve Tailwind CSS ile geliştirilmiş modern ve tam kapsamlı geliştirici proje yönetim platformu.
 
-First, run the development server:
+## 🌟 Temel Özellikler
+- 🎨 **Modern & Slick Dark UI**: Glassmorphism efektleri, neon vurgular ve Tailwind CSS v4 ile donatılmış şık arayüz.
+- 📊 **Metrikler ve Özet Panosu (Hero Stats)**: Proje istatistikleri, aktif geliştirme oranları, kategori ve öncelik dağılımı.
+- 🔍 **Akıllı Filtreleme ve Arama**: Kategori, durum (Planning, In Progress, In Review, Completed), öncelik ve metin araması.
+- ⚡ **Etkileşimli CRUD İşlemleri**: Proje oluşturma, düzenleme, aşama güncelleme, silme ve yıldız verme modalleri.
+- 🚀 **Next.js App Router REST API**: /api/projects, /api/stats, /api/health, /api/feedback uç noktaları.
+- 🧪 **Canlı API Playground**: Tarayıcı üzerinden doğrudan REST API endpointlerini tetikleme ve canlı JSON yanıtlarını inceleme.
+- 💬 **Geri Bildirim & İletişim Havuzu**: Gerçek zamanlı geri bildirim gönderme ve listeleme.
 
-```bash
+## 🔌 Backend API Endpoints
+- GET /api/projects - Projeleri listeler (search, category, status, sort destekler)
+- POST /api/projects - Yeni proje oluşturur
+- GET /api/projects/:id - Tekil proje detayını getirir
+- PATCH /api/projects/:id - Projeyi günceller
+- DELETE /api/projects/:id - Projeyi siler
+- GET /api/stats - Telemetri ve analitik verilerini döndürür
+- GET /api/health - Sunucu sağlık durumunu ve uptime bilgisini verir
+- GET /api/feedback - Geri bildirimleri listeler
+- POST /api/feedback - Yeni geri bildirim kaydeder
+
+## 🚀 Hızlı Kurulum
+`ash
+# 1. Bağımlılıkları yükleyin
+npm install
+
+# 2. Geliştirici sunucusunu başlatın
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 3. Üretim için derleyin
+npm run build
+npm run start
+`",
+    ",
+    
+- Next.js 15 (App Router)
+- React 19 & TypeScript
+- Tailwind CSS v4
+- Lucide Icons
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 Lisans
+MIT
