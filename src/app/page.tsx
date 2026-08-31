@@ -360,8 +360,8 @@ export default function HomePage() {
             <span>— Next.js 15 Full-Stack Developer Architecture</span>
           </div>
           <div className="flex items-center gap-4 text-zinc-400">
-            <a href="https://github.com/Yagzk" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition">
-              GitHub / Yagzk
+            <a href="https://github.com/turguzdev" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition">
+              GitHub / turguzdev
             </a>
             <span>•</span>
             <span>REST API Ready</span>

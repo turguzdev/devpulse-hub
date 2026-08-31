@@ -33,7 +33,7 @@ export function ProjectModal({ isOpen, onClose, onSave, editingProject }: Projec
   const [tagsInput, setTagsInput] = useState("Next.js, TypeScript, Tailwind");
   const [lead, setLead] = useState("Yağız Kaan");
   const [dueDate, setDueDate] = useState("2026-10-01");
-  const [githubUrl, setGithubUrl] = useState("https://github.com/Yagzk/new-repo");
+  const [githubUrl, setGithubUrl] = useState("https://github.com/turguzdev/new-repo");
   const [demoUrl, setDemoUrl] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState("");
@@ -61,7 +61,7 @@ export function ProjectModal({ isOpen, onClose, onSave, editingProject }: Projec
       setTagsInput("Next.js, TypeScript, Tailwind");
       setLead("Yağız Kaan");
       setDueDate("2026-10-15");
-      setGithubUrl("https://github.com/Yagzk/");
+      setGithubUrl("https://github.com/turguzdev/");
       setDemoUrl("");
     }
     setError("");

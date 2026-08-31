@@ -141,11 +141,11 @@ export function Navbar({ activeTab, setActiveTab, onOpenNewProject, totalProject
 
             {/* GitHub Profile */}
             <a
-              href="https://github.com/Yagzk"
+              href="https://github.com/turguzdev"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-white hover:border-zinc-700 hover:bg-zinc-800/80 transition"
-              title="GitHub Hesabı (Yagzk)"
+              title="GitHub Hesabı (turguzdev)"
             >
               <GithubIcon className="w-4 h-4" />
             </a>

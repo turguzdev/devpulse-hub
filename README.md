@@ -67,7 +67,7 @@ Projeyi yerel makinenizde çalıştırmak için:
 
 ### 1. Depoyu Klonlayın
 ```bash
-git clone https://github.com/Yagzk/devpulse-hub.git
+git clone https://github.com/turguzdev/devpulse-hub.git
 cd devpulse-hub
 ```
 
